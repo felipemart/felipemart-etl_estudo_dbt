@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: sources
+    database: VENDAS
+    schema: STAGE
+    tables:
+      - name: 'clientes'
+      - name: 'produtos'
+      - name: 'lojas'
+      - name: 'vendas'
+      - name: 'vendas_itens'
